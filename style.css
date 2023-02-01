@@ -568,6 +568,9 @@ footer span a:hover{
     cursor: pointer;
     transition: all .4s ease;
 }
+.social .box a{
+    color: inherit;
+}
 .social .box:hover {
     width: 200px;
     background: #0e76a8;
