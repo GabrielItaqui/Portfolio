@@ -15,7 +15,7 @@ $(document).ready(function(){
          $('html').animate({scrollTop: 0});
      });
 
-     /* var typed = new Typed(".typing", {
+    var typed = new Typed(".typing", {
          strings:["Desenvolvedor Front-End Júnior", "Streamer", "Analista de Sistemas"],
          typeSpeed:30,
          backSpeed:30,
@@ -27,7 +27,7 @@ $(document).ready(function(){
          backSpeed:30,
          loop:true
     });
-    */
+    
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
