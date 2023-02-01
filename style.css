@@ -468,17 +468,17 @@ section .title::after, .title1::after, .title2::after{
     font-size: 25px;
     color: #00804b;
 }
-.contact .rigth form .fields{
+.contact .right form .fields{
     display: flex;
 }
-.contact .rigth form .field,
-.contact .rigth form .fields .field{
+.contact .right form .field,
+.contact .right form .fields .field{
     width: 100%;
     height: 45px;
     margin-bottom: 15px;
 }
-.contact .rigth form .field input,
-.contact .rigth form .textarea textarea{
+.contact .right form .field input,
+.contact .right form .textarea textarea{
     width: 100%;
     height: 100%;
     border: 1px solid #ccc;
@@ -488,25 +488,25 @@ section .title::after, .title1::after, .title2::after{
     font-size: 17px;
     font-family: 'Roboto',sans-serif;
 }
-.contact .rigth form .name{
+.contact .right form .name{
     margin-right: 10px;
 }
-.contact .rigth form .email{
+.contact .right form .email{
     margin-left: 10px;
 }
-.contact .rigth form .textarea{
+.contact .right form .textarea{
     width: 100%;
     height: 80px;
 }
-.contact .rigth form .textarea textarea{
+.contact .right form .textarea textarea{
     padding-top: 10px;
     resize: none;
 }
-.contact .rigth form .button{
+.contact .right form .button{
     width: 170px;
     height: 47px;
 }
-.contact .rigth form .button button{
+.contact .right form .button button{
     width: 100%;
     height: 100%;
     border: 2px solid #00804b;
@@ -518,7 +518,7 @@ section .title::after, .title1::after, .title2::after{
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.contact .rigth form .button button:hover{
+.contact .right form .button button:hover{
     color: #00804b;
     background: none;
 }
@@ -537,7 +537,69 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
-
+.social{
+    height: 340px;
+    font-size: 20px;
+}
+.social p{
+    transform: translate(60px);
+}
+.social .icon{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all .4s ease;
+}
+.social .box{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 0.6rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+.social .box:hover {
+    width: 200px;
+    background: #0e76a8;
+    border-radius: 35px;
+    color: #FFF;
+    box-shadow: 0 0 50px #08435f;
+}
+.social .box:nth-child(2):hover{
+    background: #25d366;
+    box-shadow: 0 0 50px #25d3657e;
+}
+.social .box:nth-child(3):hover{
+    background: #3B5998;
+    box-shadow: 0 0 50px #1a2846;
+}
+.social .box:nth-child(4):hover{
+    background: #3f729b;
+    box-shadow: 0 0 50px #3f729b;
+}
+.social .box:nth-child(5):hover{
+    background: #171515;
+    box-shadow: 0 0 50px #171515;
+}
+.social .box:nth-child(6):hover{
+    background: #6441a5;
+    box-shadow: 0 0 50px #6441a5;
+}
+.social .box:hover .icon{
+    background: #FFF;
+    color: #3b3b3b;
+    box-shadow: 0 0 20px rgba(0,0,0,0.26);
+}
 
 /*  responsivo  */
 @media (max-width: 1300px){
