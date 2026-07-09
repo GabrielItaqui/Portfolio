@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio  | Gabriel Itaqui</title>
-    
+    <title>Portfólio | Gabriel Itaqui</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="scroll-up-btn">
         <ion-icon name="chevron-up-outline"></ion-icon>
@@ -18,9 +20,10 @@
             <ul class="menu">
                 <li><a href="#home">Inicio</a></li>
                 <li><a href="#about">Sobre</a></li>
-                <li><a href="#courses">Cursos</a></li>
+                <li><a href="#impact">Impacto</a></li>
+                <li><a href="#courses">Chancelas</a></li>
                 <li><a href="#skills">Especialidades</a></li>
-                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#experience">Trajetória</a></li>
                 <li><a href="#contact">Contato</a></li>
             </ul>
             <div class="menu-btn">
@@ -29,350 +32,579 @@
         </div>
     </div>
 
-    <!--Home-->
+    <!-- Seção 1: Home (Hero Section) -->
     <section class="home" id="home">
         <div class="max-width">
             <div class="home-content">
                 <div class="text-1">Ola, meu nome é</div>
                 <div class="text-2">Gabriel Itaqui</div>
                 <div class="text-3">eu sou <span class="typing"></span></div>
-                <a href="#">Contratar-me</a>
+                <a href="#contact">Vamos construir algo?</a>
             </div>
         </div>
     </section>
 
-    <!--Sessão Sobre-->
+    <!-- Seção 2: Sobre Mim -->
     <section class="about" id="about">
         <div class="max-width">
             <h2 class="title">Sobre</h2>
             <div class="about-content">
                 <div class="column left">
-                    <img src="./img/foto-gabriel.jpg" alt="">
+                    <img src="./img/foto-gabriel.jpg" alt="Gabriel Itaqui">
                 </div>
                 <div class="column right">
-                    <div class="text">Sou Gabriel e sou <span class="typing-2"></span></div>
-                    <p>Nascido em 1985 na cidade de Porto Alegre, apaixonado por tecnologia desde jovem, finalmente estou podendo estudar e tentar carreira nesse meio, estudo progrmação desde o final de 2021 e cada vez me apaixono mais por essa área.</p>
+                    <p>Durante anos vivi no epicentro do universo Geek como proprietário da loja Load or Cast. Ali,
+                        liderei equipes, gerenciei operações de ponta a ponta e entendi o que realmente faz um negócio
+                        prosperar. Mas o meu verdadeiro motor sempre foi o desejo visceral de <b>construir</b>. Eu
+                        queria ver idéias nascerem do absoluto zero e se transformarem em ecossistemas funcionais e
+                        maravilhosos</p>
+                    <p>Em 2021, atendi ao chamado da minha verdadeira vocação: o Desenvolvimento de Sistemas. Decidi
+                        canalizar toda a minha bagagem de liderança e visão de negócios para as linhas de código. Hoje,
+                        após concluir minha formação em Análise e Desenvolvimento de Sistemas e dominar arquiteturas
+                        backend e automações robustas com Python e n8n, eu não sou apenas um desenvolvedor que digita
+                        sintaxe. Eu sou um resolvedor de problemas que traduz dores de negócios ineficientes em sistemas
+                        automatizados, eficazes e escaláveis.</p>
                     <a href="#">Download CV</a>
                 </div>
             </div>
         </div>
     </section>
 
-     <!--Sessão Cursos-->
-     <section class="services" id="courses">
+    <!-- Seção 3: Dashboard de Impacto Operacional -->
+    <section class="impact-dashboard" id="impact">
         <div class="max-width">
-            <h2 class="title1">Cursos Concluidos</h2>
-            <div class="serv-content">
-               <div class="card">
-                    <div class="box">
-                        <ion-icon name="cog-outline"></ion-icon>
-                        <div class="text">Lógica</div>
-                        <p>Concluido em 21/03/2022</p>
-                        <a href="https://cursos.alura.com.br/user/itaquigabriel/degree-programacao-v123948-123948/certificate" targer="_blank">Certificado</a>
-                   </div>
-               </div>
+            <h2 class="title">Impacto Operacional</h2>
 
-               <div class="card">
-                <div class="box">
-                    <ion-icon name="logo-html5"></ion-icon>
-                    <div class="text">Html e CSS</div>
-                    <p>Concluído em 08/04/2022</p>
-                    <a href="https://cursos.alura.com.br/degree/certificate/8459b4a5-e159-4846-a15d-2c09c69f8fde" targer="_blank">Certificado</a>
+            <!-- Banner de ROI Consolidado -->
+            <div class="roi-leaderboard">
+                <div class="roi-number">+1.950</div>
+                <div class="roi-text">
+                    <h3>Horas de Trabalho Manual Eliminadas Anualmente</h3>
+                    <p>Soluções de Engenharia de Software, Inteligência Artificial e Automação de Processos com foco em
+                        Retorno Sobre o Investimento (ROI).</p>
                 </div>
             </div>
 
-            <div class="card">
-                <div class="box">
-                    <ion-icon name="logo-javascript"></ion-icon>
-                    <div class="text">JavaScript</div>
-                    <p>Concluído em 30/05/2022</p>
-                    <a href="https://cursos.alura.com.br/user/itaquigabriel/degree-js-backend-210587/certificate" targer="_blank">Certificado</a>
+            <!-- Grid de Projetos de Alto Impacto -->
+            <div class="projects-grid">
+
+                <!-- Card 1 -->
+                <div class="project-impact-card">
+                    <div class="card-badge">⏱️ 756 Horas Salvas / Ano</div>
+                    <div class="card-body">
+                        <h3 class="card-title">Auditoria Inteligente & Vision AI</h3>
+                        <p class="card-description">Desenvolvimento de motor OCR para leitura, classificação e
+                            conciliação cruzada de Notas Fiscais e Certificados de Origem em processos de exportação
+                            internacional.</p>
+                    </div>
+                    <div class="card-footer">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Computer Vision</span>
+                        <span class="tech-badge">OCR</span>
+                        <span class="tech-badge">Compliance</span>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <div class="box">
-                    <ion-icon name="accessibility-outline"></ion-icon>
-                    <div class="text">Acessibilidade</div>
-                    <p>Concluído em 27/06/2022</p>
-                    <a href="https://cursos.alura.com.br/user/itaquigabriel/degree-acessibilidade-web-2346/certificate"
-                    targer="_blank">Certificado</a>
+
+                <!-- Card 2 -->
+                <div class="project-impact-card">
+                    <div class="card-badge">⏱️ 504 Horas Salvas / Ano</div>
+                    <div class="card-body">
+                        <h3 class="card-title">Pipeline de Dados Azure Enterprise</h3>
+                        <p class="card-description">Aplicação integrada ao Azure Tenant para extração dinâmica de dados
+                            do Outlook e geração automatizada de relatórios multiformato (.docx, .pdf, .html, .txt).</p>
+                    </div>
+                    <div class="card-footer">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Azure Tenant</span>
+                        <span class="tech-badge">Automation</span>
+                        <span class="tech-badge">ETL</span>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <div class="box">
-                    <ion-icon name="storefront-outline"></ion-icon>
-                    <div class="text">Front-End</div>
-                    <p>Concluído em 25/07/2022</p>
-                    <a href="https://cursos.alura.com.br/user/itaquigabriel/degree-js-backend-210587/certificate" targer="_blank">Certificado</a>
+
+                <!-- Card 3 -->
+                <div class="project-impact-card">
+                    <div class="card-badge">⏱️ 336 Horas / Ano por Técnico</div>
+                    <div class="card-body">
+                        <h3 class="card-title">Voice-to-Data Engine & LLM</h3>
+                        <p class="card-description">Solução de Speech-to-Text integrada a modelos de linguagem para
+                            registro de chamados em campo via áudio, gerando relatórios automáticos estruturados.</p>
+                    </div>
+                    <div class="card-footer">
+                        <span class="tech-badge">Speech-to-Text</span>
+                        <span class="tech-badge">LLM</span>
+                        <span class="tech-badge">GenAI</span>
+                        <span class="tech-badge">Field Ops</span>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <div class="box">
-                    <ion-icon name="logo-react"></ion-icon>
-                    <div class="text">React Native</div>
-                    <p>Cursando</p>
-                    <a href="#" targer="_blank">Certificado (Breve)</a>
+
+                <!-- Card 4 -->
+                <div class="project-impact-card">
+                    <div class="card-badge">⏱️ 252 Horas Salvas / Ano</div>
+                    <div class="card-body">
+                        <h3 class="card-title">Agente de BI Preditivo Customizado</h3>
+                        <p class="card-description">Engine inteligente baseada em LLM para automação de auditoria de
+                            checklists operacionais e análise preditiva de KPIs estratégicos para escala de vendas.</p>
+                    </div>
+                    <div class="card-footer">
+                        <span class="tech-badge">Custom GPT</span>
+                        <span class="tech-badge">Data Analytics</span>
+                        <span class="tech-badge">BI</span>
+                        <span class="tech-badge">Scale-up</span>
+                    </div>
                 </div>
+
+                <!-- Card 5 -->
+                <div class="project-impact-card">
+                    <div class="card-badge">⏱️ 105 Horas Técnicas Recuperadas</div>
+                    <div class="card-body">
+                        <h3 class="card-title">Automação de Pipelines Operacionais</h3>
+                        <p class="card-description">Engine em Python para coleta, tratamento e envio automatizado de
+                            relatórios de produtividade diária, eliminando erros humanos no fluxo de reportes.</p>
+                    </div>
+                    <div class="card-footer">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Data Pipelines</span>
+                        <span class="tech-badge">SMTP</span>
+                        <span class="tech-badge">Data Integrity</span>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
 
-     <!--sessão especialidade-->
-     <section class="skills" id="skills">
+    <!-- Seção 4: Sala de Troféus (Chancelas & Certificações) -->
+    <section class="services" id="courses">
+        <div class="max-width">
+            <h2 class="title1">Chancelas & Certificações</h2>
+            <div class="serv-content">
+
+                <!-- Bloco 1: Formação Acadêmica de Elite -->
+                <div class="card">
+                    <div class="box">
+                        <ion-icon name="school-outline"></ion-icon>
+                        <div class="text">Formação em Engenharia & ADS</div>
+                        <p>Tecnólogo em Análise e Desenvolvimento de Sistemas unificado à sólida bagagem acadêmica em
+                            Engenharia de Software[cite: 1, 4].</p>
+                        <a href="https://diplomas.cogna.com.br/diploma-digital/validador/documento/academico/298.298.a92d9d0bde9c"
+                            target="_blank">Graduado</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <ion-icon name="code-working-outline"></ion-icon>
+                        <div class="text">Pós: Dev Backend</div>
+                        <p>Especialização completa em arquiteturas de servidores, construção de microsserviços, APIs
+                            RESTful escaláveis e segurança[cite: 1].</p>
+                        <span class="tech-badge">Pós-Graduação</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+                        <div class="text">Pós: IA Generativa</div>
+                        <p>Especialização avançada no desenvolvimento de aplicações com LLMs, Engenharia de Prompt
+                            avançada e integração de agentes autônomos[cite: 1].</p>
+                        <span class="tech-badge">Pós-Graduação</span>
+                    </div>
+                </div>
+
+                <!-- Bloco 2: Ecossistema Enterprise & Cloud (Microsoft Learn) -->
+                <div class="card">
+                    <div class="box">
+                        <ion-icon name="cloud-done-outline"></ion-icon>
+                        <div class="text">Azure & Cloud Computing</div>
+                        <p>Chancela oficial em componentes arquitetônicos do Azure, segurança em nuvem e gerenciamento
+                            de infraestrutura computacional conectada[cite: 1].</p>
+                        <span class="tech-badge">Microsoft Learn</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <ion-icon name="git-network-outline"></ion-icon>
+                        <div class="text">Power Automate & SharePoint</div>
+                        <p>Certificações focadas na simplificação de processos corporativos complexos, conectores
+                            Outlook 365 e engenharia de fluxos serverless[cite: 1].</p>
+                        <span class="tech-badge">Microsoft Learn</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <ion-icon name="apps-outline"></ion-icon>
+                        <div class="text">Microsoft Viva & Teams Add-ons</div>
+                        <p>Desenvolvimento e customização de suplementos enterprise, integração de aplicações para Teams
+                            e gerenciamento de conformidade de dados[cite: 1].</p>
+                        <span class="tech-badge">Microsoft Learn</span>
+                    </div>
+                </div>
+
+                <!-- Bloco 3: Automação Avançada & Inteligência Artificial (DIO / Alura) -->
+                <div class="card">
+                    <div class="box">
+                        <ion-icon name="shuffle-outline"></ion-icon>
+                        <div class="text">AI Automation com n8n</div>
+                        <p>Especialista na criação de fluxos avançados de automação, manipulação estrita de variáveis e
+                            integração profunda de Webhooks e APIs[cite: 3].</p>
+                        <span class="tech-badge">DIO Expert</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <ion-icon name="analytics-outline"></ion-icon>
+                        <div class="text">Machine Learning na Prática</div>
+                        <p>Certificações avançadas em algoritmos de SVM, redes neurais artificiais, algoritmos genéticos
+                            e modelos de classificação de datasets[cite: 3].</p>
+                        <span class="tech-badge">BairesDev / DIO</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <ion-icon name="logo-python"></ion-icon>
+                        <div class="text">Data Structures & Python</div>
+                        <p>Domínio aprofundado na manipulação de estruturas de dados complexas, dicionários, tuplas,
+                            conjuntos e otimização de funções em Python[cite: 2, 3].</p>
+                        <span class="tech-badge">Alura / DIO</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 5: Especialidades Core - Arquitetura & Engenharia -->
+    <section class="skills" id="skills">
         <div class="max-width">
             <h2 class="title">Especialidades</h2>
             <div class="skills-content">
+
+                <!-- Coluna Esquerda: Visão Estratégica -->
                 <div class="column left">
-                    <div class="text">Cursando Análise e Desenvolvimento de Sistemas</div>
-                    <p>Segundo semestre pela UNOPAR, com previsão de conclusão no segundo semestre de 2024</p>
-                    <a href="#">Mais informações</a>
+                    <div class="text">Engenharia de Soluções Focada em ROI Operacional</div>
+                    <p>Minha abordagem técnica une a visão macro de processos de negócios com o desenvolvimento de
+                        arquiteturas modernas de software. Especialista em identificar gargalos operacionais, desenhar
+                        pipelines de dados automatizados e integrar Inteligência Artificial para eliminar tarefas
+                        repetitivas, escalando a eficiência de ambientes corporativos e gerando economia real de
+                        recursos técnicos.</p>
+                    <a href="#contact">Desafie minha lógica</a>
                 </div>
+
+                <!-- Coluna Direita: Os Quatro Pilares de Solução (Matriz Sênior) -->
                 <div class="column right">
-                   <div class="bars">
-                       <div class="info">
-                           <span>HTML</span>
-                           <span>60%</span>
-                       </div>
-                       <div class="line html"></div>
-                   </div>
-                   <div class="bars">
-                    <div class="info">
-                        <span>CSS</span>
-                        <span>50%</span>
+
+                    <!-- Pilar 1 -->
+                    <div class="skill-pilar">
+                        <h3><ion-icon name="git-merge-outline"></ion-icon> Orquestração & Integration Serverless</h3>
+                        <p>Desenvolvimento de workflows complexos no <b>n8n</b>, gerenciamento avançado de estados,
+                            consumo de REST APIs, tratamento de payloads JSON estruturados e manipulação estrita de
+                            Webhooks[cite: 3].</p>
                     </div>
-                    <div class="line css"></div>
+
+                    <!-- Pilar 2 -->
+                    <div class="skill-pilar">
+                        <h3><ion-icon name="speedometer-outline"></ion-icon> AI-Driven Dev & Rigor de Produção</h3>
+                        <p>Desenvolvimento ágil apoiado por IA Generativa para máxima velocidade de entrega de sintaxe.
+                            Engenharia combinada a uma postura estrita de governança: aplicação de testes rigorosos,
+                            sandboxes de validação e refatoração detalhada antes de qualquer deploy em produção.</p>
                     </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>JavaScript</span>
-                            <span>30%</span>
-                        </div>
-                        <div class="line js"></div>
+
+                    <!-- Pilar 3 -->
+                    <div class="skill-pilar">
+                        <h3><ion-icon name="terminal-outline"></ion-icon> Engenharia Backend & Data Parsing</h3>
+                        <p>Construção de engines e scripts robustos em <b>Python</b> e Node.js para manipulação,
+                            extração, tratamento de dados (ETL) e integração direta com bancos de dados relacionais e
+                            não-relacionais[cite: 3].</p>
                     </div>
+
+                    <!-- Pilar 4 -->
+                    <div class="skill-pilar">
+                        <h3><ion-icon name="cloud-outline"></ion-icon> Ecossistema Enterprise & Cloud Infrastructure
+                        </h3>
+                        <p>Implementação de soluções integradas ao Azure Tenant, automação via Power Automate,
+                            desenvolvimento de soluções centralizadas em SharePoint e governança de dados
+                            operacionais[cite: 1].</p>
+                    </div>
+
                 </div>
+
             </div>
         </div>
     </section>
 
-     <!--sessão projetos-->
-     <section class="teams" id="projects">
+    <!-- Seção 6: Linha do Tempo Horizontal de Experiência Profissional -->
+    <section class="experience-timeline" id="experience">
         <div class="max-width">
-            <h2 class="title">Meus projetos</h2>
-           <div class="carousel owl-carousel ">
-               <div class="card">
-                   <div class="box">
-                    <a href="https://gabrielitaqui.github.io/Jogo-Pedra_Papel_Tesoura_Lagarto_Spock/"><img src="./img/jogo1.png" alt=""></a>
-                       <div class="text">Pedra, Papel, Tesoura, Lagarto, Spock</div>
-                       <p>Jogo baseado na série The Big Bang Theory</p>
-                       <div class="ionicon">
-                        <ion-icon name="logo-html5"></ion-icon>
-                        <ion-icon name="logo-css3"></ion-icon>
-                        <ion-icon name="logo-javascript"></ion-icon>
-                       </div>
-                   </div>
-               </div>
-               <div class="card">
-                   <div class="box">
-                        <a href="https://gabrielitaqui.github.io/mariojumper/"><img src="./img/images.png" alt=""></a>
-                       <div class="text">Mario Jumper</div>
-                       <p>Jogo do Google com o Mario</p>
-                       <div class="ionicon">
-                        <ion-icon name="logo-html5"></ion-icon>
-                        <ion-icon name="logo-css3"></ion-icon>
-                        <ion-icon name="logo-javascript"></ion-icon>
-                       </div>
-                   </div>
-               </div>
-               <div class="card">
-                   <div class="box">
-                        <a href="https://gabrielitaqui.github.io/Projeto-Memory-Game/"><img src="./img/memoria.png" alt=""></a>
-                       <div class="text">Jogo da Memória</div>
-                       <p>Jogo do Memória</p>
-                       <div class="ionicon">
-                        <ion-icon name="logo-html5"></ion-icon>
-                        <ion-icon name="logo-css3"></ion-icon>
-                        <ion-icon name="logo-javascript"></ion-icon>
-                       </div>
-                   </div>
-               </div>
-               <div class="card">
-                   <div class="box">
-                        <a href="https://gabrielitaqui.github.io/BarbeariaAlura/"><img src="./img/barberpng.png" alt=""></a>
-                       <div class="text">Barbearia Alura</div>
-                       <p>Site feito em treinamento com a Alura</p>
-                       <div class="ionicon">
-                        <ion-icon name="logo-html5"></ion-icon>
-                        <ion-icon name="logo-css3"></ion-icon>
-                       </div>
-                   </div>
-               </div>
-               <div class="card">
-                   <div class="box">
-                        <a href="https://gabrielitaqui.github.io/Apeperia-Alura"><img src="./img/apeperia.svg" alt=""></a>
-                       <div class="text">Apeperia Alura</div>
-                       <p>Site feito em treinamento com a Alura com foco em Responsidade e Mobile-First</p>
-                       <div class="ionicon">
-                        <ion-icon name="logo-html5"></ion-icon>
-                        <ion-icon name="logo-css3"></ion-icon>
-                       </div>
-                   </div>
-               </div>
-               <div class="card">
-                   <div class="box">
-                        <a href="https://gabrielitaqui.github.io/arquiteturaCSS/"><img src="./img/fruta.jpg" alt=""></a>
-                       <div class="text">Fruta & Fruto</div>
-                       <p>Site feito em treinamento com a Alura ensinando Arquitetura CSS</p>
-                       <div class="ionicon">
-                        <ion-icon name="logo-html5"></ion-icon>
-                        <ion-icon name="logo-css3"></ion-icon>
-                       </div>
-                   </div>
-               </div>
-               <div class="card">
-                   <div class="box">
-                        <a href="https://gabrielitaqui.github.io/CSSGRID/"><img src="./img/cssgrid.PNG" alt=""></a>
-                       <div class="text">Alura Store</div>
-                       <p>Site feito em treinamento com a Alura ensinando Grid CSS e apronfundando sobre responsibidade Mobile</p>
-                       <div class="ionicon">
-                        <ion-icon name="logo-html5"></ion-icon>
-                        <ion-icon name="logo-css3"></ion-icon>
-                       </div>
-                   </div>
-               </div>
-               <div class="card">
-                   <div class="box">
-                        <a href="https://gabrielitaqui.github.io/aluramidi/"><img src="./img/midi.PNG" alt=""></a>
-                       <div class="text">Alura Midi</div>
-                       <p>Site feito em treinamento com a Alura ensinando integração JavaScrip em projetos HTML e CSS</p>
-                       <div class="ionicon">
-                        <ion-icon name="logo-html5"></ion-icon>
-                        <ion-icon name="logo-css3"></ion-icon>
-                        <ion-icon name="logo-javascript"></ion-icon>
-                       </div>
-                   </div>
-               </div>
-               <div class="card">
-                   <div class="box">
-                        <a href="https://aluraplus-mxj04apjh-gabrielitaqui.vercel.app/"><img src="./img/plus.PNG" alt=""></a>
-                       <div class="text">Alura Plus</div>
-                       <p>Nesse projeto aprimorei meus conhecimentos sobre grid layout e construção básica de uma página.</p>
-                       <div class="ionicon">
-                        <ion-icon name="logo-html5"></ion-icon>
-                        <ion-icon name="logo-css3"></ion-icon>
-                       </div>
-                   </div>
-               </div>
-                <div class="card">
-                   <div class="box">
-                        <a href="https://gabrielitaqui.github.io/mochilaViagem/"><img src="./img/mochilaViagem.PNG" alt=""></a>
-                       <div class="text">Mochila de Viagem</div>
-                       <p>Um projeto de JavaScript integrado com HTML CSS que aplica Local Storage</p>
-                       <div class="ionicon">
-                        <ion-icon name="logo-html5"></ion-icon>
-                        <ion-icon name="logo-css3"></ion-icon>
-                        <ion-icon name="logo-javascript"></ion-icon>
-                       </div>
-                   </div>
-               </div>
-           </div>
+            <h2 class="title">Trajetória</h2>
+
+            <div class="timeline-horizontal">
+                <div class="timeline-line"></div>
+
+                <!-- Nó 1: JDB Tecnologia -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2025 - Pres.</div>
+                    <div class="timeline-content-box">
+                        <h4>Técnico de IA e Automação</h4>
+                        <h5>JDB Tecnologia · Caxias do Sul, RS</h5>
+                        <p>Desenvolvimento acelerado apoiado por IA Generativa para máxima velocidade de entrega de
+                            sintaxe, combinado a um rigoroso protocolo de testes, sandboxes de validação e análise
+                            detalhada antes de qualquer deploy em produção. Orquestração de workflows assíncronos no
+                            <b>n8n</b>, construção de scripts robustos em Python e integrações via APIs REST (Zabbix,
+                            Milvus), conquistando uma redução de até 80% nos processos manuais de fluxos críticos de
+                            negócios.</p>
+                        <div class="timeline-techs">
+                            <span>Python</span>
+                            <span>n8n</span>
+                            <span>AI-Driven Dev</span>
+                            <span>Testes Estritos</span>
+                            <span>APIs REST</span>
+                            <span>Cloud IA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nó 2: Progás & Braesi -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2025 - 2025</div>
+                    <div class="timeline-content-box">
+                        <h4>Assistente de TI</h4>
+                        <h5>Progás & Braesi · Caxias do Sul, RS</h5>
+                        <p>Suporte técnico em infraestrutura física e virtual para garantia de alta disponibilidade.
+                            Diagnóstico de incidentes de hardware/software com foco em redução de downtime, manutenção
+                            preventiva e monitoramento de dados operacionais via Zabbix e Milvus.</p>
+                        <div class="timeline-techs">
+                            <span>Infraestrutura</span>
+                            <span>Zabbix</span>
+                            <span>Milvus</span>
+                            <span>Suporte</span>
+                            <span>CFTV</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nó 3: Anhanguera Educacional -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2024 - 2024</div>
+                    <div class="timeline-content-box">
+                        <h4>Técnico de Informática</h4>
+                        <h5>Anhanguera Educacional · Caxias do Sul, RS</h5>
+                        <p>Desenvolvimento de duas aplicações web funcionais completas utilizando arquitetura MVC.
+                            Implementação de comunicação via APIs HTTP, implantação em nuvem (Google Cloud Platform),
+                            otimização de infraestrutura de TI e documentação de processos técnicos.</p>
+                        <div class="timeline-techs">
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>React</span>
+                            <span>Google Cloud</span>
+                            <span>MVC</span>
+                            <span>APIs</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nó 4: Mercado Turbo -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2023 - 2023</div>
+                    <div class="timeline-content-box">
+                        <h4>Desenvolvedor Júnior</h4>
+                        <h5>Mercado Turbo · Caxias do Sul, RS</h5>
+                        <p>Desenvolvimento de aplicações web completas e integração de sistemas via APIs REST. Atuação
+                            estrita em ambiente ágil com metodologia Scrum e versionamento de código e fluxos de
+                            branches via Git.</p>
+                        <div class="timeline-techs">
+                            <span>React</span>
+                            <span>Java</span>
+                            <span>JSF</span>
+                            <span>SQL</span>
+                            <span>Git</span>
+                            <span>Scrum</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nó 5: Omoshiroi Geek Shop -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2021 - 2023</div>
+                    <div class="timeline-content-box">
+                        <h4>CEO e Fundador</h4>
+                        <h5>Omoshiroi Geek Shop · Caxias do Sul, RS</h5>
+                        <p>Fundação e gestão autônoma de operação comercial de artigos geek. Desenvolvimento de
+                            competências estritas em análise de competitividade de mercado, dedicação operacional,
+                            planejamento estratégico e viabilidade financeira de negócio.</p>
+                        <div class="timeline-techs">
+                            <span>Gestão</span>
+                            <span>BI</span>
+                            <span>Estratégia</span>
+                            <span>Liderança</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nó 6: Load or Cast -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2015 - 2020</div>
+                    <div class="timeline-content-box">
+                        <h4>CEO e Fundador</h4>
+                        <h5>Load or Cast · Caxias do Sul, RS</h5>
+                        <p>Direção político-comercial e operacional da empresa ao longo de mais de 5 anos. Responsável
+                            direto pela consolidação da marca, análise competitiva de mercado, gestão de fornecedores e
+                            liderança de processos de venda.</p>
+                        <div class="timeline-techs">
+                            <span>Empreendedorismo</span>
+                            <span>Negócios</span>
+                            <span>Liderança</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nó 7: Bitcom Internet Fibra -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2014 - 2014</div>
+                    <div class="timeline-content-box">
+                        <h4>Gerente de P&D</h4>
+                        <h5>Bitcom Internet Fibra · Caxias do Sul, RS</h5>
+                        <p>Liderança do setor de pesquisa e desenvolvimento de soluções de conectividade. Coordenação de
+                            trabalho em equipe, estruturação de treinamentos técnicos e prospecção de melhorias para
+                            infraestrutura de telecomunicações.</p>
+                        <div class="timeline-techs">
+                            <span>Gestão de P&D</span>
+                            <span>Telecom</span>
+                            <span>Treinamento</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nó 8: Fast Shop S/A -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2012 - 2013</div>
+                    <div class="timeline-content-box">
+                        <h4>Vendedor em Comércio Atacadista</h4>
+                        <h5>Fast Shop S/A · Caxias do Sul, RS</h5>
+                        <p>Atuação em ambiente comercial corporativo de alta performance. Desenvolvimento focado em
+                            pesquisa de experiência do usuário (UX), análise estrita de competitividade e negociação
+                            direta de grandes contas.</p>
+                        <div class="timeline-techs">
+                            <span>UX Research</span>
+                            <span>Vendas B2B</span>
+                            <span>Negociação</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nó 9: Distapetes Tapetes -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2010 - 2011</div>
+                    <div class="timeline-content-box">
+                        <h4>Vendedor em Domicílio</h4>
+                        <h5>Distapetes Tapetes · Caxias do Sul, RS</h5>
+                        <p>Fundações de inteligência comercial e prospecção direta de clientes. Foco no desenvolvimento
+                            de soft skills como resiliência, trabalho em equipe qualificado e técnicas avançadas de
+                            comunicação e persuasão.</p>
+                        <div class="timeline-techs">
+                            <span>Comunicação</span>
+                            <span>Prospecção</span>
+                            <span>Soft Skills</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </section>
 
-    <!--Sessão contato-->
+    <!-- Seção 7: Contato e Fechamento de Alto Impacto -->
     <section class="contact" id="contact">
         <div class="max-width">
             <h2 class="title">Contato</h2>
             <div class="contact-content">
-               <div class="column left">
-                   <div class="text">Fale comigo</div>
-                   <p>"Todo Sênior um dia foi um Júnior a quem foi dada uma chance"</p>
-               
-               <div class="icons">
-                   <div class="row">
-                        <ion-icon name="person-outline"></ion-icon>
-                        <div class="info">
-                            <div class="head">Nome</div>
-                            <div class="sub-title">Gabriel Itaqui</div>
+
+                <div class="column left">
+                    <div class="text">Gargalos operacionais custam caro.</div>
+                    <p>Eu não estou no mercado procurando por "uma chance". Meu objetivo é identificar os pontos de
+                        fricção da sua operação, arquitetar microsserviços eficientes e implementar camadas de
+                        Inteligência Artificial e automação que devolvem tempo produtivo e reduzem custos reais.</p>
+                    <p>Se a sua empresa precisa de engenharia bruta aplicada à eficiência e escalabilidade, vamos
+                        construir a solução juntos.</p>
+
+                    <div class="icons">
+                        <div class="row">
+                            <ion-icon name="person-outline"></ion-icon>
+                            <div class="info">
+                                <div class="head">Engenheiro Responsável</div>
+                                <div class="sub-title">Gabriel Itaqui</div>
+                            </div>
                         </div>
-                   </div>
-                   <div class="row">
-                    <ion-icon name="earth-outline"></ion-icon>
-                    <div class="info">
-                        <div class="head">Endereço</div>
-                        <div class="sub-title">Caxias do Sul, RS</div>
+                        <div class="row">
+                            <ion-icon name="location-outline"></ion-icon>
+                            <div class="info">
+                                <div class="head">Atuação</div>
+                                <div class="sub-title">Caxias do Sul, RS (Disponível para projetos remotos/híbridos
+                                    globais)</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <ion-icon name="mail-outline"></ion-icon>
+                            <div class="info">
+                                <div class="head">E-mail Corporativo</div>
+                                <div class="sub-title">itaquigabriel@gmail.com</div>
+                            </div>
+                        </div>
                     </div>
-               </div>
-               <div class="row">
-                <ion-icon name="person-outline"></ion-icon>
-                <div class="info">
-                    <div class="head">Email</div>
-                    <div class="sub-title">itaquigabriel@gmail.com</div>
                 </div>
-           </div>
-               </div>
-            </div><!--column left-->
-            <div class="column right social">
-                <div class="box">
-                    <div class="icon linkedin">
+
+                <div class="column right social-channels">
+                    <div class="contact-card-link">
                         <a href="https://www.linkedin.com/in/gabriel-itaqui-248768165" target="_blank">
-                        <ion-icon name="logo-linkedin"></ion-icon>
+                            <div class="contact-icon linkedin"><ion-icon name="logo-linkedin"></ion-icon></div>
+                            <div class="contact-label">
+                                <h4>LinkedIn</h4>
+                                <p>Conexão Profissional & Networking</p>
+                            </div>
                         </a>
                     </div>
-                    <p>Linkedin</p>
-                </div>
 
-                <div class="box">
-                    <div class="icon whatsapp">
-                        <a href="https://api.whatsapp.com/send/?phone=5554997052196&text&type=phone_number&app_absent=0" target="_blank">
-                        <ion-icon name="logo-whatsapp"></ion-icon>
+                    <div class="contact-card-link">
+                        <a href="https://api.whatsapp.com/send/?phone=5554997052196&text=Olá%20Gabriel,%20vi%20seu%20portfólio..."
+                            target="_blank">
+                            <div class="contact-icon whatsapp"><ion-icon name="logo-whatsapp"></ion-icon></div>
+                            <div class="contact-label">
+                                <h4>WhatsApp</h4>
+                                <p>Alinhamento de Projetos Imediato</p>
+                            </div>
                         </a>
                     </div>
-                    <p>WhatsApp</p>
-                </div>
 
-                <div class="box">
-                    <div class="icon facebook">
-                        <a href="https://www.facebook.com/gabriel.itaqui/" target="_blank">
-                        <ion-icon name="logo-facebook"></ion-icon>
-                        </a>
-                    </div>
-                    <p>Facebook</p>
-                </div>
-
-                <div class="box">
-                    <div class="icon instagram">
-                        <a href="https://www.instagram.com/ogabrielitaqui/" target="_blank">
-                        <ion-icon name="logo-instagram"></ion-icon>
-                        </a>
-                    </div>
-                    <p>Instagram</p>
-                </div>
-
-                <div class="box">
-                    <div class="icon github">
+                    <div class="contact-card-link">
                         <a href="https://github.com/GabrielItaqui" target="_blank">
-                        <ion-icon name="logo-github"></ion-icon>
+                            <div class="contact-icon github"><ion-icon name="logo-github"></ion-icon></div>
+                            <div class="contact-label">
+                                <h4>GitHub Private Profile</h4>
+                                <p>Governança de Repositórios</p>
+                            </div>
                         </a>
                     </div>
-                    <p>GitHub</p>
                 </div>
 
-                <div class="box">
-                    <div class="icon twitch">
-                        <a href="https://www.twitch.tv/naite_kun" target="_blank">
-                        <ion-icon name="logo-twitch"></ion-icon>
-                        </a>
-                    </div>
-                    <p>Twitch</p>
-                </div>
-            </div>
             </div>
         </div>
     </section>
 
-    <!--sessão  footer-->
+    <!--sessão footer-->
     <footer>
-        <span>Criado por <a href="#">Gabriel Itaqui</a> | Todos os direitos reservados 2023</span>
+        <span>Criado por <a href="#">Gabriel Itaqui</a> | Todos os direitos reservados 2026</span>
     </footer>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
@@ -380,9 +612,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-
 </body>
+
 </html>
